@@ -3,12 +3,13 @@
     box-sizing: border-box;
     background-color: aliceblue;
     background: linear-gradient(to bottom,#ccff00,#7bfd41);
+    border: 3px solid #7cfe42;
 
 }
 header{
     display: flex;
     justify-content: space-between;
-    border: 3px solid #7cfe42;
+
 
 }
 .site{
@@ -17,6 +18,7 @@ header{
     text-align: center;
     width: 850px;
     color: white;
+    border-bottom: 3px solid #7cfe42;
 
 }
 header img{
@@ -26,7 +28,11 @@ header img{
 main{
     display: flex;
     flex-flow: row nowrap;
-    border: 3px solid #7cfe42;
+
+}
+nav{
+    border-bottom: 3px solid #7cfe42;
+
 }
 
 ul li a{
@@ -41,23 +47,26 @@ ul li{
     font-size: 25px;
     font-weight: bolder;
 }
+
 .content{
-    width: 724px;
+    width: 670px;
+    height: 96%;
+    background-color: white;
+    margin: 15px;
 }
 .rec{
     width: 300px;
     display: flex;
     flex-flow: column nowrap;
-    border-left: 3px solid #7cfe42;
+
 }
 .rec img{
     margin: 15px;
     width: 270px;
 }
 footer{
-    width: 1024px;
-    background-size: contain;
     background-color: white;
+    border-top: 3px solid #7cfe42;
 }
 footer img{
     background-size: contain;
